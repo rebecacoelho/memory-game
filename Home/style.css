@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1em 20em;
+  background-color: black;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 324px;
+  background-image:url("../Home/banner-game.jpg");
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.game {
+  padding: 1.5em 0 1em 0;
+  margin-top: 0.5em;
+  width: 282px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.game button {
+  background-color: brown;
+  padding: 10px 20px;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.game button:hover {
+  background-color:darkslategrey;
+  color: white;
+}
+
+.capa {
+  width: 100%;
+}
+
+.games h2 {
+  padding: 0 1em;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
