@@ -15,6 +15,7 @@ body {
 .title {
   text-decoration: none;
   color: white;
+  margin-right: 65px;
 }
 
 .banner {
@@ -82,4 +83,16 @@ h1 {
   text-decoration: none;
   color: black;
   text-align: left;
+}
+
+.insignias {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.insignias img {
+  width: 50px;
 }

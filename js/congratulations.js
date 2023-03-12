@@ -25,9 +25,8 @@ function checkEndGame() {
   const flippedCards = document.querySelectorAll(".flip")
 
   if (flippedCards.length == 12) {
-    alert ("Parabéns! Você passou dessa fase, passe para a próxima etapa para mais aprendizados.")
-    let nextButton = document.getElementById("buttonNext")
-    nextButton.classList.remove("next")
+    alert ("Parabéns! Você concluiu o jogo!")
+    location.replace('./congratulations.html')
   }
 }
 

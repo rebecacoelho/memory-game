@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background: #060AB2;
+}
+
+.button {
+  padding: 15px 25px;
+  margin: 10px;
+  background-color: lightblue;
+  border: none;
+  color: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+.next {
+  display: none;
+}
+
+.memory-game {
+  width: 450px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.memory-game img {
+  width: 100px;
+}
+
+.memory-game span {
+  color: white;
+  opacity: 0.6;
+}

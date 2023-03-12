@@ -11,7 +11,7 @@ body {
 }
 
 .button {
-  padding: 20px;
+  padding: 15px 25px;
   margin: 10px;
   background-color: lightblue;
   border: none;
@@ -21,7 +21,12 @@ body {
 }
 
 .button:hover {
-  background-color: violet;
+  background-color: darkcyan;
+  color: white;
+}
+
+.next {
+  display: none;
 }
 
 .memory-game {
@@ -68,4 +73,33 @@ body {
 
 .front-face {
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 30px;
+  align-self: center;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  margin-left: 10px;
+  gap: 10px;
+  max-width: 370px;
+}
+
+.header h2, p {
+  color: lightblue;
+}
+
+.header p {
+  font-size: 18px;
 }

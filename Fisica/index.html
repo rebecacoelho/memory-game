@@ -3,14 +3,20 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Memory Game - Physics</title>
+  <title>Memory Game - Physics - Phase 1</title>
 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div>
-    <button class="button" onclick="location.replace('../index.html')">Voltar</button>
+  <div class="header">
+    <div class="buttons">
+      <button class="button" onclick="location.replace('../index.html')">Voltar</button>
+      <button id="buttonNext" class="button next" onclick="location.replace('./phase2/index.html')">Avançar para a próxima fase</button>
+    </div>
+    <h2>Fisíca - Fase 1</h2>
+    <p>Conecte o par entre o nome da força com seu respectivo exemplo.</p>
   </div>
+
 
   <section class="memory-game">
     <div class="memory-card" data-chemistry="atrito">
@@ -18,7 +24,9 @@
       <img class="back-face" src="img/physics.png" alt="Fisíca" />
     </div>
     <div class="memory-card" data-chemistry="atrito">
-      <img class="front-face" src="img/atrito-n.jpg" alt="Atrito" />
+      <div class="front-face">
+        <h3>Força de Atrito</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisíca" />
     </div>
 
@@ -27,7 +35,9 @@
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
     <div class="memory-card" data-chemistry="arrasto">
-      <img class="front-face" src="img/arrasto-n.jpg" alt="Arrasto" />
+      <div class="front-face">
+        <h3>Força de Arrasto</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
 
@@ -36,16 +46,20 @@
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
     <div class="memory-card" data-chemistry="elastica">
-      <img class="front-face" src="img/elastica-n.jpg" alt="Elastica" />
+      <div class="front-face">
+        <h3>Força Elástica</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
 
     <div class="memory-card" data-chemistry="gravitacional">
-      <img class="front-face" src="img/gravitacional.jpg" alt="Potassio" />
+      <img class="front-face" src="img/gravitacional.jpg" alt="Gravitacional" />
       <img class="back-face" src="img/physics.png" alt="Química" />
     </div>
     <div class="memory-card" data-chemistry="gravitacional">
-      <img class="front-face" src="img/gravitacional-n.jpg" alt="Gravitacional" />
+      <div class="front-face">
+        <h3 id="gravitacional">Força Gravitacional</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
 
@@ -54,7 +68,9 @@
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
     <div class="memory-card" data-chemistry="magnetica">
-      <img class="front-face" src="img/magnetica-n.jpg" alt="Magnetica" />
+      <div class="front-face">
+        <h3>Força Magnética</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
 
@@ -63,7 +79,9 @@
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
     <div class="memory-card" data-chemistry="tracao">
-      <img class="front-face" src="img/tracao-n.jpg" alt="Tracao" />
+      <div class="front-face">
+        <h3>Força de Tração</h3>
+      </div>
       <img class="back-face" src="img/physics.png" alt="Fisica" />
     </div>
   </section>
