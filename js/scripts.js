@@ -44,6 +44,8 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
+  firstCard.classList.add("done")
+  secondCard.classList.add("done")
 
   resetBoard();
 }

@@ -86,6 +86,11 @@ h3 {
   opacity: 0.8;
 }
 
+.buttons {
+  margin-top: 1rem;
+  margin-bottom: 9rem;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -97,9 +102,16 @@ h3 {
 }
 
 .header h2, p {
-  color: lightblue;
+  color: #4adede;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header p {
-  font-size: 18px;
+  font-size: 30px;
+}
+
+.done {
+  border: 3px solid red;
+  border-radius: 10px;
 }
