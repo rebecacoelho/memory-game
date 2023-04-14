@@ -86,8 +86,9 @@ h3 {
   opacity: 0.8;
 }
 
-#gravitacional {
-  font-size: 24px;
+.buttons {
+  margin-top: 1rem;
+  margin-bottom: 9rem;
 }
 
 .header {

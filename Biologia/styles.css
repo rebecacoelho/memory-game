@@ -86,6 +86,11 @@ h3 {
   opacity: 0.8;
 }
 
+.buttons {
+  margin-top: 1rem;
+  margin-bottom: 9rem;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -104,10 +109,6 @@ h3 {
 
 .header p {
   font-size: 30px;
-}
-
-#long {
-  font-size: 24px;
 }
 
 .done {
