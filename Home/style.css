@@ -4,6 +4,14 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+header h2 {
+  font-family: 'Share Tech Mono', monospace;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -95,4 +103,8 @@ h1 {
 
 .insignias img {
   width: 50px;
+}
+
+footer h2 {
+  color: #fff;
 }
